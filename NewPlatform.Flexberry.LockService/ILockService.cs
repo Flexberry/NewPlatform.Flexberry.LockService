@@ -1,11 +1,8 @@
 namespace NewPlatform.Flexberry.Services
 {
-    using System.Diagnostics.Contracts;
-
     /// <summary>
     /// Base interface of service for locking objects.
     /// </summary>
-    [ContractClass(typeof(LockServiceContract))]
     public interface ILockService
     {
         /// <summary>
