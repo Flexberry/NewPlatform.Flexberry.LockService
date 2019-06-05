@@ -1,1 +1,1 @@
-# NewPlatform.Flexberry.Services.LockService
+# NewPlatform.Flexberry.LockService
