@@ -1,7 +1,6 @@
 ﻿namespace NewPlatform.Flexberry.Services
 {
     using System;
-    using System.Diagnostics.Contracts;
 
     using ICSSoft.STORMNET;
     using ICSSoft.STORMNET.Business;
@@ -33,7 +32,10 @@
         /// <param name="dataService">The data service for storing data.</param>
         public LockService(IDataService dataService)
         {
-            Contract.Requires<ArgumentNullException>(dataService != null);
+            if (dataService == null)
+            {
+                throw new ArgumentNullException(nameof(dataService));
+            }
 
             _dataService = dataService;
 
