@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPlatform.Flexberry.LockService", "NewPlatform.Flexberry.LockService\NewPlatform.Flexberry.LockService.csproj", "{5DBECC63-EFDA-41D3-A00A-85D5CA08BA82}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet Package", "NuGet Package", "{BAC83892-0AAB-42A8-A1F3-D6A8A7A2D38F}"
 	ProjectSection(SolutionItems) = preProject
 		NewPlatform.Flexberry.LockService.nuspec = NewPlatform.Flexberry.LockService.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPlatform.Flexberry.LockService", "NewPlatform.Flexberry.LockService\NewPlatform.Flexberry.LockService.csproj", "{F4B3641B-7F6A-4F25-B3CF-895E0803B584}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,15 +16,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DBECC63-EFDA-41D3-A00A-85D5CA08BA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DBECC63-EFDA-41D3-A00A-85D5CA08BA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DBECC63-EFDA-41D3-A00A-85D5CA08BA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DBECC63-EFDA-41D3-A00A-85D5CA08BA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B3641B-7F6A-4F25-B3CF-895E0803B584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B3641B-7F6A-4F25-B3CF-895E0803B584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B3641B-7F6A-4F25-B3CF-895E0803B584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B3641B-7F6A-4F25-B3CF-895E0803B584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+		SolutionGuid = {FE0CE143-5C26-473F-A7F4-4356AF37D735}
 	EndGlobalSection
 EndGlobal
