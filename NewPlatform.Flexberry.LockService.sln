@@ -3,12 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet Package", "NuGet Package", "{BAC83892-0AAB-42A8-A1F3-D6A8A7A2D38F}"
-	ProjectSection(SolutionItems) = preProject
-		NewPlatform.Flexberry.LockService.nuspec = NewPlatform.Flexberry.LockService.nuspec
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewPlatform.Flexberry.LockService", "NewPlatform.Flexberry.LockService\NewPlatform.Flexberry.LockService.csproj", "{F4B3641B-7F6A-4F25-B3CF-895E0803B584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPlatform.Flexberry.LockService", "NewPlatform.Flexberry.LockService\NewPlatform.Flexberry.LockService.csproj", "{F4B3641B-7F6A-4F25-B3CF-895E0803B584}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open Source", "Open Source", "{E9C69F1E-3FCF-45B3-9B38-1E3CFCF3D8AB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		CHANGELOG.md = CHANGELOG.md
+		Flexberry.ruleset = Flexberry.ruleset
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,7 +30,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 		SolutionGuid = {FE0CE143-5C26-473F-A7F4-4356AF37D735}
 	EndGlobalSection
 EndGlobal
