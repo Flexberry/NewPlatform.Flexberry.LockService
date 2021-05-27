@@ -7,7 +7,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 ### Changed
-* csproj format to `Microsoft.NET.Sdk`.
 
 ### Deprecated
 
@@ -16,3 +15,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 ### Security
+
+## [3.0.0] - 2021-05-27
+
+### Added
+- .NET Standard 2.0 implementation. NuGet package contains net45 and netstandard2.0 targets.
+
+### Changed
+* csproj format to `Microsoft.NET.Sdk`.

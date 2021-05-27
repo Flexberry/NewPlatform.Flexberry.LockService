@@ -4,10 +4,11 @@
     <Description>Flexberry Lock Service.</Description>
     <Title>NewPlatform.Flexberry.LockService</Title>
     <Authors>New Platform Ltd.</Authors>
-    <Copyright>Copyright 2020 © New Platform Ltd.</Copyright>
+    <Copyright>Copyright 2021 © New Platform Ltd.</Copyright>
     <Company>New Platform Ltd.</Company>
     <PackageTags>flexberry lock</PackageTags>
-    <VersionPrefix>3.0.0-beta02</VersionPrefix>
+    <VersionPrefix>3.0.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
     <Product>NewPlatform.Flexberry.LockService</Product>
     <PackageId>NewPlatform.Flexberry.LockService</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -36,11 +37,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="NewPlatform.Flexberry.ORM" Version="6.0.0-beta10" />
+    <PackageReference Include="NewPlatform.Flexberry.ORM" Version="6.0.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
