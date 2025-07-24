@@ -4,11 +4,11 @@
     <Description>Flexberry Lock Service.</Description>
     <Title>NewPlatform.Flexberry.LockService</Title>
     <Authors>New Platform Ltd.</Authors>
-    <Copyright>Copyright 2021 © New Platform Ltd.</Copyright>
+    <Copyright>Copyright 2025 © New Platform Ltd.</Copyright>
     <Company>New Platform Ltd.</Company>
     <PackageTags>flexberry lock</PackageTags>
-    <VersionPrefix>3.0.0</VersionPrefix>
-    <VersionSuffix></VersionSuffix>
+    <VersionPrefix>4.0.0</VersionPrefix>
+    <VersionSuffix>beta01</VersionSuffix>
     <Product>NewPlatform.Flexberry.LockService</Product>
     <PackageId>NewPlatform.Flexberry.LockService</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 ### Added
+- Updated `NewPlatform.Flexberry.ORM` up to `8.0.0-beta01`.
 
 ### Changed
 
