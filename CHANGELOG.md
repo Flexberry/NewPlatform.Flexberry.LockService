@@ -16,6 +16,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Security
 
+## [4.0.0] - 2026-08-11
+
+### Changed
+- Updated `NewPlatform.Flexberry.ORM` up to `8.0.0`.
+
 ## [3.0.0] - 2021-05-30
 
 ### Added
